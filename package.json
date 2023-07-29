@@ -1,0 +1,36 @@
+{
+  "name": "github-copilot-tools-pack",
+  "version": "1.0.0",
+  "publisher": "swagatachaudhuri",
+  "displayName": "GitHub Copilot Tools Pack",
+  "description": "An extension pack to leverage the most out of GitHub Copilot",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#0072c6",
+    "theme": "dark"
+  },
+  "icon": "resources/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swagatachaudhuri/github-copilot-tools-pack"
+  },
+  "homepage": "https://github.com/swagatachaudhuri/github-copilot-tools-pack",
+  "bugs": {
+    "url": "https://github.com/swagatachaudhuri/github-copilot-tools-pack/issues"
+  },
+  "keywords": [
+    "github",
+    "copilot"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "extensionPack": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "GitHub.copilot-labs"
+  ]
+}
